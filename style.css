@@ -1,0 +1,684 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.navbar{
+    display: flex;
+    height: 10vh;
+    width: 89vw;
+    margin-left: 5vw;
+    font-size: 1.4vw;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.logo{
+    height: 5rem;
+    width: 9rem;
+}
+
+.first-image{
+    height: 4.3rem;
+    width: 5rem;
+    color: white;
+}
+
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.midbar{
+    height: 3rem;
+    width: 50rem; 
+    display: flex;   
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.rbar{
+    gap: 0.7rem;
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.main{
+    height: 70vh;
+    width: 89vw;
+    margin-left: 4.8rem;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.slide{
+    width: 70vw;
+    height: 30vw;
+    background-image: url(/Gaming_Site/icons/mario1.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 10px rgba(0,0,0,.5);
+    animation: slider 10s infinite 7s linear ;
+    
+}
+
+
+@keyframes slider{
+    5%{
+        background-image: url(/Gaming_Site/icons/mario1.jpg);
+    }
+    
+    15%{
+        background-image: url(/Gaming_Site/icons/cod2.jpg);
+    }
+
+    30%{
+        background-image: url(/Gaming_Site/icons/fozra3.jpg);
+    }
+
+    45%{
+        background-image: url(/Gaming_Site/icons/rockstar4.jpg);
+    }
+
+    60%{
+        background-image: url(/Gaming_Site/icons/medal5.jpg);
+    }
+    
+    75%{
+        background-image: url(/Gaming_Site/icons/6.jpg);
+    }
+    
+    85%{
+        background-image: url(/Gaming_Site/icons/7.jpg);
+    }
+    
+    95%{
+        background-image: url(/Gaming_Site/icons/metal_gear_rising_revengeance_5-wallpaper-8.jpg);
+    }
+}
+
+h1{
+    font-size: 1.4rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+
+}
+
+#paras{
+    margin-top: 3rem;
+    height: 100vh;
+    width: 89vw;
+    margin-left: 4.8rem;
+    font-size: 10px;
+    background-color: green;
+   
+}
+
+
+.clap{
+    height: 30vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cen{
+    height: 50%;
+    width: 65%;
+    text-align: center;
+}
+p{
+    font-size: 1.3rem;
+}
+
+
+.F_anime{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 70vh;
+}
+
+
+
+
+.wrapper{
+    width: 22rem;
+    height: 20rem;
+    position: relative;
+}
+
+
+
+.wrapper .box-image{
+    transform: rotate(0deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.wrapper:hover .box-image{
+    transform: rotateY(90deg);
+}
+
+
+.wrapper:hover .txt{
+    transform: rotateY(0deg);
+    
+}
+
+
+
+
+.wrapper1{
+    width: 22rem;
+    height: 20rem;
+    position: relative;
+}
+
+
+
+.wrapper1 .box-image1{
+    transform: rotate(0deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.wrapper1:hover .box-image1{
+    transform: rotateY(90deg);
+}
+
+.wrapper1:hover .txt{
+    transform: rotateY(0deg);
+}
+
+
+
+.wrapper2{
+    width: 22rem;
+    height: 20rem;
+    position: relative;
+}
+
+
+
+.wrapper2 .box-image2{
+    transform: rotate(0deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.wrapper2:hover .box-image2{
+    transform: rotateY(90deg);
+}
+
+.txt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background: rgba(194, 8, 141, 0.5);
+    width: 22rem;
+    height: 20rem;
+    text-align: center;
+    padding: 0 0;
+    border-radius: 5%;
+}
+
+.txt{
+    transform: rotateY(90deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.wrapper2:hover .txt{
+    transform: rotateY(0deg);
+    overflow: hidden;
+}
+
+.best{
+    height: 20rem;
+    width: 22rem;
+    border-radius: 5%;
+
+}
+
+
+
+.lgo{
+    width: 4rem;
+    height: 4rem;
+}
+
+
+
+
+#bard{
+    margin-top: 5rem;
+    height: 110vh;
+    width: 89vw;
+    font-size: 10px;
+
+
+}
+
+.rahul{
+    height: 52%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bre{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 23rem;
+    width: 49.9rem;
+    border-radius: 5% ;
+    flex-wrap: wrap;
+}
+
+.bre1{
+    height: 50vh;
+    width: 91vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.bre .imag{
+    transform: rotate(0deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.bre:hover .imag{
+    transform: rotateX(90deg);
+}
+
+.bre:hover .txte{
+    transform: rotateX(0deg);
+}
+
+
+.txte{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background: rgba(194, 8, 141, 0.5);
+    width: 49.9rem;
+    height: 23rem;
+    text-align: center;
+    padding: 0 0;
+    border-radius: 5%;
+}
+
+.txte{
+    transform: rotateX(90deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.bst{
+    height: 23rem;
+    width: 49.9rem;
+    border-radius: 5% ;
+} 
+
+
+
+#container {
+    background-color: blue;
+    height: 110vh;
+    width: 89vw;
+}
+
+.contain-h1{
+    padding-top: 1rem;
+    word-spacing: 0px;
+}
+
+.nag{
+    margin-top: 5rem;
+    grid-template-columns: repeat(3, 22rem);
+    grid-template-rows: repeat(2 ,15rem);
+    display: grid;
+    justify-content: center;
+    grid-gap: 100px;
+    grid-template-areas:
+    "cont1 cont2 cont3"
+    "cont4 cont5 cont6";
+    flex-wrap: wrap;
+}
+
+.box{
+    border: 1px solid red;
+    border-radius: 5%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+.cont2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.cont3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.cont4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.cont5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.cont6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.list{
+    list-style-type: none;
+    font-size: 1.3rem;
+    height: 10rem;
+    width: 20rem;
+}
+
+
+
+.goog{
+    height: 90vh;
+    width: 89vw;
+    display: flex;
+}
+
+.girl{
+    height: 100%;
+    width: 45%;
+}
+
+.img-contain{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.info{
+    height: 100%;
+    width: 70%;
+}
+
+.about{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.about2{
+    height:60% ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.text-text{
+    text-align: left;
+}
+.one{
+    height:50% ;
+    width: 35%;
+    color: black;
+    font-size: x-large;
+}
+
+.to{
+    height:50% ;
+    width: 35%;
+    color: black;
+    font-size: x-large;
+}
+
+
+#footer{
+    height: 50vh;
+    width: 89vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+#mohit{
+    height: 40%;
+    width: 45%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lorem{
+    width: 100%;
+    height: 2rem;
+}
+
+#input{
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    height: 2rem;
+    border: 2px solid;
+    border-radius: 10px;
+    width:90%;
+}
+
+.toggle_bar{
+    width: 100%;
+    display: flex;
+    margin-right: 2rem;
+    gap: 2rem;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+
+img{
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.copy{
+    position: relative;
+    bottom: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        margin-left: 0rem;
+        height: auto;
+        width: auto;
+    }
+    .main{
+        height: auto;
+        width: auto;
+        margin-left: 0rem;
+    }
+    .slide {
+        width: 100%;
+        left: 0;
+    }
+
+    #paras {
+        margin-top: 1rem;
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    .clap{
+        height: auto;
+        width: auto;
+    }
+
+
+    .F_anime {
+        height: auto;
+    }
+
+    .wrapper, .wrapper1, .wrapper2 {
+        width: 100%;
+    }
+
+    .txt {
+        width: 100%;
+    }
+
+    .bst {
+        width: 100%;
+    }
+
+    #bard {
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    .bre, .bre1 {
+        width: 100%;
+    }
+
+    .bst {
+        width: 100%;
+    }
+
+    #container {
+        width: 100vw;
+    }
+
+    .nag {
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, auto);
+        grid-gap: 50px;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .list {
+        width: 90%;
+    }
+
+    .goog {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .girl {
+        width: 100%;
+        height: auto;
+    }
+
+    .info {
+        width: 100%;
+        height: auto;
+    }
+
+    .about, .about2 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .one, .to {
+        width: 100%;
+    }
+
+    #footer {
+        width: 100vw;
+    }
+
+    #mohit {
+        width: 100%;
+    }
+
+    #input {
+        width: 95%;
+        margin: 1rem auto;
+    }
+
+    .toggle_bar {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    img {
+        height: 1rem;
+        width: 1rem;
+    }
+}
+
+
+
